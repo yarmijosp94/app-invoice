@@ -22,3 +22,12 @@ export interface Range {
   start: Date
   end: Date
 }
+
+export interface Producto {
+  id: number
+  title: string
+  price: number
+  description: string
+  category: string
+  image: string
+}

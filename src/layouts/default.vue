@@ -18,7 +18,17 @@ const links = [{
   onSelect: () => {
     open.value = false
   }
-}] satisfies NavigationMenuItem[]
+}, {
+  label: 'Produtos',
+  icon: 'i-lucide-box',
+  to: '/products',
+  onSelect: () => {
+    open.value = false
+  }
+}
+
+
+] satisfies NavigationMenuItem[]
 </script>
 
 <template>
