@@ -45,7 +45,7 @@ const productos = await getProducts();
         </template>
 
         <template #right>
-              <UButton variant="outline" color="primary" size="sm">Agregar Producto</UButton>
+              <UButton variant="outline" color="primary" size="sm">Agregar Productos</UButton>
         </template>
       </UDashboardNavbar>
     </template>
